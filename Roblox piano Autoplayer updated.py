@@ -39,7 +39,7 @@ def play_melody(melody, cooldown):
         keyboard.wait(';')
         time.sleep(cooldown)
 
-# Wait for user to press the play button (space bar)
+# Wait for user to press the play button (Enter)
 print("Press the enter to start playing the melody...")
 keyboard.wait('Enter')
 
